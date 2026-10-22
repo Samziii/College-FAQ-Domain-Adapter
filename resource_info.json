@@ -1,0 +1,8 @@
+{
+  "gpu_available": true,
+  "gpu_name": "Tesla T4",
+  "gpu_total_memory_GB": 14.56,
+  "peak_gpu_allocated_memory_GB": 1.769,
+  "peak_gpu_reserved_memory_GB": 1.879,
+  "note": "CUDA peak-memory statistics describe the recorded current runtime and may not represent a prior or restarted run."
+}

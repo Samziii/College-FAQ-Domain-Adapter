@@ -1,0 +1,26 @@
+{
+  "model": "google/flan-t5-small",
+  "method": "LoRA with PEFT",
+  "epochs": 5,
+  "train_steps": 280,
+  "training_loss": 3.30447245325361,
+  "validation_loss": 2.7240123748779297,
+  "total_parameters": 77305216,
+  "trainable_parameters": 344064,
+  "frozen_parameters": 76961152,
+  "trainable_percentage": 0.445072166928555,
+  "evaluation_examples": 5,
+  "distinct_test_intents": 5,
+  "metric": "ROUGE-L F1",
+  "mean_base_rougeL_f1": 0.1537,
+  "mean_lora_rougeL_f1": 0.2298,
+  "note": "Exploratory lexical overlap on five held-out intents; not factual accuracy or semantic similarity.",
+  "held_out_comparison_file": "evaluation/comparison_results.csv",
+  "unseen_question_file": "evaluation/unseen_questions_results.csv",
+  "limitations": [
+    "The 630 rows are paraphrases of 30 underlying FAQ intents, not 630 independent FAQs.",
+    "The test set contains only five distinct intents; results are preliminary.",
+    "ROUGE-L measures lexical overlap, not factual accuracy or semantic similarity.",
+    "Generated answers may be generic; verify all answers and URLs against official college sources."
+  ]
+}

@@ -1,0 +1,6 @@
+intent_id,category,question,reference_answer,base_rougeL_f1,lora_rougeL_f1
+Where can I verify examination rules?,Examinations,Where can I verify examination rules?,Refer to the official academic regulations and current examination notices.,0.15384615384615385,0.3636363636363636
+How can I confirm a fee payment deadline?,Fees,How can I confirm a fee payment deadline?,Refer to the latest official fee notice because payment deadlines may change.,0.2222222222222222,0.07407407407407407
+Where can I find the academic calendar?,Academic Procedures,Where can I find the academic calendar?,Consult the official academic calendar for term dates and scheduled academic events.,0.13333333333333333,0.2608695652173913
+Who can I contact for college-related career guidance?,Internships,Who can I contact for college-related career guidance?,Use official college contact channels to identify the appropriate office or coordinator.,0.1111111111111111,0.2105263157894737
+How can I verify library opening hours?,Library and Facilities,How can I verify library opening hours?,Confirm current library hours through official college information or the library staff.,0.14814814814814814,0.24000000000000002

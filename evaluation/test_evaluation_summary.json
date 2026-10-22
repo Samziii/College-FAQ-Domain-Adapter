@@ -1,0 +1,8 @@
+{
+  "evaluation_examples": 5,
+  "distinct_test_intents": 5,
+  "metric": "ROUGE-L F1",
+  "mean_base_rougeL_f1": 0.1537,
+  "mean_lora_rougeL_f1": 0.2298,
+  "note": "Exploratory lexical overlap on five held-out intents; not factual accuracy or semantic similarity."
+}

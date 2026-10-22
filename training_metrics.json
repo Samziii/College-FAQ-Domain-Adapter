@@ -1,0 +1,12 @@
+{
+  "model": "google/flan-t5-small",
+  "method": "LoRA with PEFT",
+  "epochs": 5,
+  "train_steps": 280,
+  "training_loss": 3.30447245325361,
+  "validation_loss": 2.7240123748779297,
+  "total_parameters": 77305216,
+  "trainable_parameters": 344064,
+  "frozen_parameters": 76961152,
+  "trainable_percentage": 0.445072166928555
+}
